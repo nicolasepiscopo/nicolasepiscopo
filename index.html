@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="nde">
+<head>
+    <meta charset="UTF-8">
+    <title>@nicolasepiscopo | fullstack developer</title>
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="styles/bootstrap.theme.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <header ng-include="'app/header/header.template.html'">
+    </header>
+
+    <div ui-view></div>
+
+    <footer ng-include="'app/footer/footer.template.html'">
+    </footer>
+
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="app/app.js" type="text/javascript"></script>
+    <script src="app/main/main.controller.js" type="text/javascript"></script>
+
+</body>
+</html>

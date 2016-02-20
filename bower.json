@@ -1,0 +1,31 @@
+{
+  "name": "nicolasepiscopo.github.io",
+  "authors": [
+    "Nicolás Epíscopo <nicolasepiscopo@gmail.com>"
+  ],
+  "description": "Personal webpage",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "programming",
+    "javascript",
+    "web",
+    "ui",
+    "ux",
+    "css",
+    "sass",
+    "less",
+    "jquery",
+    "angular",
+    "meteor"
+  ],
+  "license": "MIT",
+  "homepage": "nicolasepiscopo.github.io",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
