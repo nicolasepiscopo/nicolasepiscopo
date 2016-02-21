@@ -3,9 +3,9 @@
  */
 ;(function(angular){
     angular.module('nde')
-        .controller('nde.mainController', Ctrl);
+        .controller('nde.skillsController', Ctrl);
 
     function Ctrl(){
-        console.log("main");
+        console.log("skills");
     }
 })(window.angular);

@@ -5,13 +5,20 @@
     'use strict';
     angular.module('nde')
         .config(function($stateProvider, $urlRouterProvider){
-            $urlRouterProvider.otherwise("/not-found");
+            $urlRouterProvider.otherwise('/');
 
             $stateProvider
                 .state('main', {
-                    url: '/',
-                    controller: 'nde.mainController',
+                    url: '',
                     templateUrl: 'app/main/main.template.html'
+                })
+                .state('about', {
+                    url: '/about',
+                    templateUrl: 'app/about/about.template.html'
+                })
+                .state('skills', {
+                    url: '/skills',
+                    templateUrl: 'app/skills/skills.template.html'
                 });
         });
 })(window.angular);

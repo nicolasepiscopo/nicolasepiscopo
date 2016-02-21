@@ -3,9 +3,10 @@
  */
 ;(function(angular){
     angular.module('nde')
-        .controller('nde.mainController', Ctrl);
+        .controller('nde.aboutController', Ctrl);
 
     function Ctrl(){
-        console.log("main");
+        var today = new Date();
+        this.years = today.getFullYear() - 2010;
     }
 })(window.angular);

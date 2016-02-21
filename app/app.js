@@ -3,5 +3,5 @@
  */
 ;(function(angular){
     'use strict';
-    angular.module('nde', ['ui.router']);
+    angular.module('nde', ['ngAnimate', 'ui.router']);
 })(window.angular);
